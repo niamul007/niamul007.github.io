@@ -1,0 +1,231 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  background-color: #ffffff;
+}
+.container header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 2rem;
+  color: #585858;
+}
+a {
+  margin-right: 5rem;
+  text-decoration: none;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+}
+@media (max-width: 900px) {
+  .heroImg {
+    height: 250px;
+    width: 90vw;
+    margin-left: 0%;
+    border-radius: 4px;
+  }
+  .hero img {
+    margin-right: 4rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero img {
+    width: 100%;
+  }
+}
+.heroImg {
+  height: 322px;
+  width: 90vw;
+  margin-left: 0%;
+  border-radius: 4px;
+}
+.hero img {
+  margin-left: 4rem;
+}
+.container header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 2rem;
+  color: #585858;
+}
+a {
+  margin-right: 4rem;
+  text-decoration: none;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+}
+.menu:hover {
+  transition: 1s;
+  padding: 0.5rem 1.5rem;
+  background-color: palevioletred;
+  border-radius: 5px;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: transparent;
+  /* backdrop-filter: blur(10px); */
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+#colunm {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding-left: 1rem;
+  background-color: transparent;
+}
+#colunm:hover {
+  background-color: palevioletred;
+  transition: 1s;
+  padding: 0.6rem;
+}
+.menuBtn {
+  position: absolute;
+  right: 20px;
+  top: 2.3rem;
+  display: none;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.cross {
+  padding-left: 1rem;
+  margin-top: 10px;
+  font-size: 25px;
+  width: 100%;
+  color: red;
+}
+.fa-times {
+  background-color: transparent;
+}
+.cross:hover {
+  transition: 1s;
+  padding: 0.3rem 1rem;
+  background-color: #585858;
+}
+@media (max-width: 900px) {
+  .menu {
+    display: none;
+  }
+  .menuBtn {
+    display: flex;
+  }
+}
+@media (max-width: 400px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+.sec-blog-header {
+  margin-left: 3.9rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #585858;
+}
+.img {
+  height: 500px;
+  width: 500px;
+}
+img {
+  height: 400px;
+  border-radius: 50%;
+  width: 400px;
+}
+/* for img */
+.img {
+  transform: translateX(38vw);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+  background-image: url(l.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+@media (max-width: 500px) {
+  .img {
+    transform: translateX(30vw);
+  }
+}
+@media (max-width: 650px) {
+  .about-niamul {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+}
+.about-niamul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.nimul-para {
+  font-family: cursive;
+  font-weight: 400;
+  font-size: medium;
+  text-align: center;
+}
+.footer {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+.icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logos {
+  margin-left: 3rem;
+}
+.logos:hover {
+  color: palevioletred;
+}
+@media (max-width: 600px) {
+  .copyright {
+    margin-top: 1rem;
+    bottom: 10px;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: medium;
+    text-align: center;
+    margin-left: 8rem;
+  }
+}
+.copyright {
+  margin-top: 1rem;
+  bottom: 10px;
+  font-family: cursive;
+  font-weight: 500;
+  font-size: medium;
+  text-align: center;
+  padding-right: 2rem;
+}
+.h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

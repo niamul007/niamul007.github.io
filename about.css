@@ -1,0 +1,215 @@
+.para {
+  margin-top: 2rem;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+@media(max-width:900px) {
+  .para{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+  }
+}
+
+.about {
+  font-size: medium;
+  font-weight: 300;
+  font-family: cursive;
+  margin-bottom: 3rem;
+  text-align: center;
+  margin-inline: 2rem;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  background-color: #ffffff;
+}
+.container header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 2rem;
+  color: #585858;
+}
+a {
+  margin-right: 5rem;
+  text-decoration: none;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+.heroImg {
+  height: 322px;
+  width: 90vw;
+  margin-left: 0%;
+  border-radius: 4px;
+}
+.hero img {
+  margin-left: 4rem;
+}
+.sec-blog-header {
+    margin-left: 3.9rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #585858;
+  }
+  .head{
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    font-family: cursive;
+
+  }
+  .icons{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 4rem;
+  }
+  .logos{
+    margin-left: 1em;
+  }
+  .emoji {
+    font-size: xx-large;
+    text-align: center;
+    padding: 4rem;
+  }
+  .copyright {
+    /* background-color: #f0f0f0; */
+    color: #3d3b3b;
+    text-align: center;
+    font-size: medium;
+    font-family: cursive;
+    font-weight: 700;
+    /* background-color: #f0f0f0; */
+    padding-bottom: 1em;
+  }
+  .logos:hover {
+    color: palevioletred;
+  }
+  .menu:hover {
+    transition: 1s;
+    padding: .5rem 1.5rem;
+    background-color: palevioletred;
+    border-radius: 5px;
+  }
+  .container header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 2rem;
+    color: #585858;
+  }
+  a {
+    margin-right: 4rem;
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: large;
+  }
+  .menu:hover {
+    transition: 1s;
+    padding: .5rem 1.5rem;
+    background-color: palevioletred;
+    border-radius: 5px;
+  }
+  .sidebar{
+    position:fixed ;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index:999 ;
+    background-color: transparent;
+    /* backdrop-filter: blur(10px); */
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#colunm{
+    margin-top: 1.5rem;
+    width: 100%;
+    padding-left: 1rem;
+    background-color: transparent;
+}
+#colunm:hover{
+    background-color: palevioletred;
+    transition: 1s;
+    padding: .60rem;
+}
+.menuBtn{
+    position: absolute;
+    right: 20px;
+    top: 2.30rem;
+    display: none;
+    font-size: 25px;
+    padding-bottom: 20px;
+    
+}
+.cross{
+    padding-left: 1rem;
+    margin-top: 10px;
+    font-size: 25px;
+    width: 100%;
+    color: red;
+}
+.fa-times{
+    background-color: transparent;
+}
+.cross:hover{
+    transition: 1s;
+    padding: .30rem 1rem;
+    background-color: #585858;
+
+}
+@media(max-width:900px){
+    .menu{
+        display: none;
+    }
+    .menuBtn{
+        display: flex;
+    }
+   .menuBtn,.nav .fa-bars{
+      margin-right: 0%;
+      padding-right: 0%;
+    }
+    header{
+      margin-right: 0%;
+      width: 100%;
+    }
+}
+@media(max-width:400px){
+    .sidebar{
+        width: 100%;
+    }
+}
+.fa-pencil,.fa-bars{
+  background-color: transparent;
+}
+@media(max-width:900px){
+  .heroImg {
+    height: 250px;
+    width: 90vw;
+    margin-left: 0%;
+    border-radius: 4px;
+  }
+  .hero img {
+    margin-right: 4rem;
+  }
+}
+
+@media(max-width:700px){
+  .hero img{
+    width: 100%;
+  }
+}
